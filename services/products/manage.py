@@ -44,9 +44,9 @@ def test():
 def seed_db():
     """Sembrado la base de datos."""
     db.session.add(Product(nombre='soda', 
-    cantidad=12, precio=0.12, descripcion="esta rico", categoria="Galletas"))
+    cantidad=12, precio=0.12, descripcion='esta rico', categoria='Galletas'))
     db.session.add(Product(nombre='soda field', 
-    cantidad=20, precio=0.7, descripcion="esta muy buenaso", categoria="Galletas"))
+    cantidad=20, precio=0.7, descripcion='esta muy buenaso', categoria='Galletas'))
     db.session.commit()
 
 @cli.command()
