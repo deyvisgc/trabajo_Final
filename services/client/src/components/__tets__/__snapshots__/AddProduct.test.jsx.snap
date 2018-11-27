@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddProduct renders a snapshot properly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="field"
+  >
+    <input
+      className="input is-large"
+      name="nombre"
+      placeholder="Enter a name"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="field"
+  >
+    <input
+      className="input is-large"
+      name="cantidad"
+      placeholder="Enter cantidad"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="field"
+  >
+    <input
+      className="input is-large"
+      name="precio"
+      placeholder="Enter precio"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="field"
+  >
+    <input
+      className="input is-large"
+      name="descripcion"
+      placeholder="Enter descripcion"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="field"
+  >
+    <input
+      className="input is-large"
+      name="categoria"
+      placeholder="Enter categoria"
+      required={true}
+      type="text"
+    />
+  </div>
+  <input
+    className="button is-primary is-large is-fullwidth"
+    type="submit"
+    value="Submit"
+  />
+</form>
+`;
