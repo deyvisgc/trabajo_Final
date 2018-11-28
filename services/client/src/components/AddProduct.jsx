@@ -8,7 +8,7 @@ const AddProduct= (props) => {
         name="nombre"
         className="input is-large"
         type="text"
-        placeholder="  producto"
+        placeholder="producto"
         required
         value={props.nombre}
         onChange={props.handleChange}
@@ -20,7 +20,7 @@ const AddProduct= (props) => {
         name="cantidad"
         className="input is-large"
         type="text"
-        placeholder=" cantidad"
+        placeholder="cantidad"
         required
         value={props.cantidad}
         onChange={props.handleChange}
@@ -31,7 +31,7 @@ const AddProduct= (props) => {
         name="precio"
         className="input is-large"
         type="text"
-        placeholder=" precio"
+        placeholder="precio"
         required
         value={props.precio}
         onChange={props.handleChange}
@@ -42,7 +42,7 @@ const AddProduct= (props) => {
         name="descripcion"
         className="input is-large"
         type="text"
-        placeholder=" desdripcion"
+        placeholder="desdripcion"
         required
         value={props.descripcion}
         onChange={props.handleChange}
@@ -54,7 +54,7 @@ const AddProduct= (props) => {
 
         className="input is-large"
         type="text"
-        placeholder=" categoria"
+        placeholder="categoria"
         required
         value={props.categoria}
         onChange={props.handleChange}

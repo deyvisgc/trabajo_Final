@@ -7,13 +7,17 @@ exports[`AddProduct renders a snapshot properly 1`] = `
   <div
     className="field"
   >
-    <input
-      className="input is-large"
-      name="nombre"
-      placeholder="Enter a name"
-      required={true}
-      type="text"
-    />
+    <div
+      className="control"
+    >
+      <input
+        className="input is-large"
+        name="nombre"
+        placeholder="producto"
+        required={true}
+        type="text"
+      />
+    </div>
   </div>
   <div
     className="field"
@@ -21,7 +25,7 @@ exports[`AddProduct renders a snapshot properly 1`] = `
     <input
       className="input is-large"
       name="cantidad"
-      placeholder="Enter cantidad"
+      placeholder="cantidad"
       required={true}
       type="text"
     />
@@ -32,7 +36,7 @@ exports[`AddProduct renders a snapshot properly 1`] = `
     <input
       className="input is-large"
       name="precio"
-      placeholder="Enter precio"
+      placeholder="precio"
       required={true}
       type="text"
     />
@@ -43,7 +47,7 @@ exports[`AddProduct renders a snapshot properly 1`] = `
     <input
       className="input is-large"
       name="descripcion"
-      placeholder="Enter descripcion"
+      placeholder="desdripcion"
       required={true}
       type="text"
     />
@@ -54,15 +58,19 @@ exports[`AddProduct renders a snapshot properly 1`] = `
     <input
       className="input is-large"
       name="categoria"
-      placeholder="Enter categoria"
+      placeholder="categoria"
       required={true}
       type="text"
     />
   </div>
-  <input
-    className="button is-primary is-large is-fullwidth"
-    type="submit"
-    value="Submit"
-  />
+  <div
+    className="field"
+  >
+    <input
+      className="button is-primary is-large is-rounded is-fullwidth"
+      type="submit"
+      value="Agregar"
+    />
+  </div>
 </form>
 `;

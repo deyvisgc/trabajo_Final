@@ -19,11 +19,11 @@ const ProductsList = (props) => {
         props.products.map((product) => {
           return (
             <tr key={product.id}>
-            <td>{ product.nombre }</td>
-            <td>{ product.precio }</td>
-            <td>{ product.cantidad }</td>
-            <td>{ product.descripcion }</td>
-            <td>{ product.categoria }</td>
+            <td>{ product.nombre}</td>
+            <td>{ product.precio}</td>
+            <td>{ product.cantidad}</td>
+            <td>{ product.descripcion}</td>
+            <td>{ product.categoria}</td>
             </tr>
           )
         })

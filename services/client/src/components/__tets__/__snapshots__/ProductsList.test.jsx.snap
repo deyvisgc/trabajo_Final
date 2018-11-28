@@ -2,15 +2,64 @@
 
 exports[`ProductsList renders a snapshot properly 1`] = `
 <div>
-  <h4
-    className="box title is-4"
+  <table
+    className="table is-narrow is-striped is-fullwidth is-hoverable"
   >
-    soda
-  </h4>
-  <h4
-    className="box title is-4"
-  >
-    soda field
-  </h4>
+    <thead>
+      <tr>
+        <th>
+          Nombre
+        </th>
+        <th>
+          Precio
+        </th>
+        <th>
+          Cantidad
+        </th>
+        <th>
+          Descripcion
+        </th>
+        <th>
+          Categoria
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          soda
+        </td>
+        <td>
+          0.12
+        </td>
+        <td>
+          12
+        </td>
+        <td>
+          esta rico
+        </td>
+        <td>
+          Galletas
+        </td>
+      </tr>
+      <tr>
+        <td>
+          soda field
+        </td>
+        <td>
+          0.7
+        </td>
+        <td>
+          20
+        </td>
+        <td>
+          esta buenaso
+        </td>
+        <td>
+          Galletas
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 `;
