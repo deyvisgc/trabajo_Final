@@ -68,21 +68,21 @@ class App extends Component {
 			<div className="columns">
 			<div className="column is-one-third box">
 			<br/>
-			<h1 className="title is-1">Registro de Productos</h1>
+			<h2 className="title is-1">Registrar</h2>
 			<hr/><br/>
 			<AddProduct
-			name={this.state.nombre} 
-			stock={this.state.cantidad} 
-			price={this.state.precio} 
-			trademark={this.state.descripcion} 
-			category={this.state.categoria} 
+			nombre={this.state.nombre} 
+			cantidad={this.state.cantidad} 
+			precio={this.state.precio} 
+			descripcion={this.state.descripcion} 
+			categoria={this.state.categoria} 
 			addProduct={this.addProduct} 
 			handleChange={this.handleChange}
 			/>
 			</div>
 			<div className="column">
 			<br/>
-			<h1 className="title is-1">Todos los Productos</h1>
+			<h3 className="title is-1"> listar Productos </h3>
 			<hr/><br/>
 			<ProductsList products={this.state.products}/>
 			</div>
