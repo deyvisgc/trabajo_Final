@@ -42,7 +42,7 @@ class TestProductService(BaseTestCase):
                 '/products',
                 data=json.dumps({
                     'nombre': 'soda',
-                    'cantidad':12,
+                    'cantidad': 12,
                     'precio': 0.12,
                     'descripcion': 'esta rico',
                     'categoria': 'Galletas'
